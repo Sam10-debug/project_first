@@ -1,0 +1,509 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	min-height: 100vh;
+	font-family: 'Lato', sans-serif;
+}
+ul{
+	list-style: none;
+}
+header{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+header nav{
+	width: 80%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+header nav ul{
+	display: flex;
+	list-style: none;
+	margin-left: 5%;
+}
+header nav ul li{
+	margin-inline: 4%;
+}
+#logo{
+	width: 100px;
+	cursor:pointer;
+}
+#avatar{
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	margin-left: auto;
+	cursor:pointer;
+}
+#hamburger,#close{
+	display: none;
+}
+a{
+	text-decoration: none;
+	color: inherit;
+}
+.about{
+	width: 100%;
+	height: 150px;
+	background-image: url("images/juho-luomala-K2AWz4lXrAM-unsplash.jpg");
+	background-size: cover;
+	display: flex;
+	align-items: center;
+}
+.about>div{
+
+	margin-left: 8rem;
+}
+#right-arrow{
+	width: 10px;
+	fill: white;
+}
+.about h2{
+	color: #ffffff;
+}
+.about>div>div>span:first-of-type{
+	color: #FFA500;
+}
+.about>div>div>span:last-of-type{
+	color: #ffffff;
+}
+.hero-section{
+	width: 50%;
+	margin: 0 auto;
+	margin-block: 1rem;
+	text-align: center;
+}
+.hero-section img{
+	width: 100%;
+}
+.hero-section h1{
+	margin-bottom: 0.7rem;
+	text-transform: capitalize;
+}
+.hero-section h4{
+	color: #FFA500;
+}
+.hero-section button,#btn,.btn{
+	background-color: #FFA500;
+	margin-block: 1rem;
+	color: #ffffff;
+	padding: 9px 14px;
+	border-radius: 6px;
+	border: none;
+}
+.third-section{
+	width: 100%;
+	display: flex;
+	padding: 1rem 3rem;
+	background-color: greenyellow;
+}
+.third-section>div{
+	flex: 1;
+}
+.third-section> div:first-of-type h4{
+	color: #FFA500;
+	text-transform: uppercase;
+}
+.third-section> div:first-of-type h2{
+	text-transform: capitalize;
+	font-size: 2.5rem;
+	width: 80%;
+}
+.third-section>div:last-of-type p{
+	line-height: 1.5;
+}
+.third-section>div:last-of-type p:last-of-type{
+	margin-block: 1rem;
+}
+
+.fourth-section{
+	width: 50%;
+	display: flex;
+	justify-content: space-between;
+	margin-left: 10%;
+	padding-block: 2.5rem;
+}
+.fourth-section img{
+	border-radius: 8px;
+	margin-left: 10px;
+}
+.fourth-section div{
+	margin-left: auto;
+	
+}
+.fourth-section h3{
+	margin-block: 7px;
+}
+.fourth-section h5{
+	margin-top: 7px;
+	color: #FFA500;
+}
+hr{
+	width: 95%;
+}
+.fourth-section p{
+	margin-top: 7px;
+	width: 80%;
+}
+.fifth-section>img{
+	width: 100%;
+}
+.fifth-section h3{
+	text-align: center;
+	margin-block: 2rem;
+}
+.fifth-section>div  img{
+	width: 250px;
+	border-radius: 6px;
+}
+.fifth-section>div{
+	width: 50%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+    align-items: center
+}
+.fifth-section div>div{
+	position: relative;
+	margin-inline: 1%;
+}
+.fifth-section div>div:first-of-type>div{
+	position: absolute;
+	top: 60%;
+	left:20%;
+	color:#ffffff;
+}
+.fifth-section div>div:last-of-type>div{
+	position: absolute;
+	top: 60%;
+	left:20%;
+	color:#ffffff;
+}
+main>section:last-of-type{
+	display: flex;
+	padding: 2rem;
+}
+main>section:last-of-type>div{
+	flex: 1
+}
+main>section:last-of-type h3{
+	font-size: 2rem;
+}
+main>section:last-of-type p{
+	margin-block: 1rem;
+	line-height: 1.5;
+}
+main>section:last-of-type div:first-of-type .contact{
+	padding-block: 1rem;
+}
+main>section:last-of-type form{
+	display: flex;
+	flex-direction: column;
+	flex:1;
+}
+main>section:last-of-type form input{
+	height: 50px;
+	border-radius: 6px;
+	margin-block: 10px;
+	padding-left: 10px;
+}
+textarea{
+	padding-left: 10px;
+	padding-top: 10px;
+	border-radius: 6px;
+}
+.btn{
+	width: 150px;
+	margin-left: auto;
+}
+footer{
+	padding-left: 5rem;
+	background-color: lemonchiffon;
+	padding-block: 2rem;
+}
+footer svg {
+	width: 15px;
+}
+footer svg>path{
+	fill: #000000;
+}
+footer section{
+	display: flex;
+}
+footer section div{
+	margin-right: 5%;
+	line-height: 1.5;
+}
+footer form{
+	display: flex;
+	flex-direction: column;
+	position: relative;
+}
+form{
+	background-color: #ffffff;
+}
+footer img{
+	width: 70px;
+	position: absolute;
+	right: 0%;
+	bottom: 0;
+}
+footer input{
+	height: 50px;
+}
+#footer-form{
+	display: flex;
+	padding: 3rem;
+	
+}
+.footer-btn{
+	background-color: #FFA500;
+	color: #ffffff;
+	padding: 9px 14px;
+	border-radius: 6px;
+	border-top-left-radius: 0;
+	border-bottom-left-radius: 0;
+	border: none;
+}
+footer input{
+	border: 1px solid #FFA500;
+}
+footer input:first-of-type{
+	padding-left: 10px;
+	border-radius: 6px;
+	border-radius: 6px;
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+}
+.copyright{
+	display: flex;
+	justify-content: space-between;
+	width: 90%;
+}
+.copyright>div{
+	width: 50px;
+	display: flex;
+	justify-content: space-between;
+}
+hr{
+	margin-block: 1rem;
+}
+svg{
+	cursor: pointer;
+}
+
+/* media query for mobile devices */
+
+@media screen and (max-width:768px) {
+	#hamburger,#close{
+		display: block;
+	}
+	#hamburger.hide{
+		visibility: hidden;
+	}
+	header nav{
+		width: 95%;
+	}
+	#logo{
+		position: absolute;
+		top: 0;
+		left: 0;
+	}
+	header nav ul{
+		flex-direction: column;
+		align-items: center;
+		margin-left: 0;
+		background-color: #ffffff;
+		position: absolute;
+		top: 8%;
+		width: 100%;
+		line-height: 1.8;
+		padding: 1rem;
+		height: 210px;
+		left: -100%;
+		transition: all 1000ms ease-in-out;
+	}
+	header nav ul.active{
+		left: 0;
+		transition: all 1000ms ease-in-out;
+	}
+	#avatar.displace{
+		position: absolute;
+		top: 25%;
+		left: 0;
+
+	}
+	#close{
+		position: absolute;
+		right: 0;
+		width: 50px;
+		display: none;
+	}
+	#close.show{
+		display: flex;
+	}
+	#hamburger{
+		margin-left: 20%;
+		padding-left: 25%;
+	}
+	.about{
+		width: 100%;
+		height: 150px;
+		background-color: limegreen;
+		display: flex;
+		align-items: flex-start;
+		padding: 6px;
+	}
+	.about>div{	
+		margin-left: 0.7rem;
+	}
+	.about h2{
+		margin-bottom: 10px;
+	}
+	.hero-section{
+		width: 100%;
+		margin-block: 2rem;
+	}
+	.hero-section h1{
+		margin-bottom: 0.7rem;
+		width: 95%;
+	}
+	.hero-section>button{
+		margin-block: 2rem;
+	}
+	.third-section{
+		flex-direction: column;
+		padding: 1rem;
+	}
+	.third-section> div:first-of-type h2{
+		margin-bottom: 1rem;
+	}
+	.fourth-section{
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		margin-left: 0;
+		padding-left: 10px;
+	}
+	.fourth-section img{
+		margin-left: 0px;
+	}
+	.fifth-section>div{
+		width: 100%;
+		margin: 0 auto;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		position: relative;
+		height: 200px;
+	}
+	.fifth-section>div div:first-of-type{
+		position: absolute;
+		left: 50%;
+	}
+	.fifth-section>div div:last-of-type{
+		position: absolute;
+		right: 50%;
+		top: 50%;
+	}
+	.fifth-section div>div{
+		position: relative;
+		margin-inline: 1%;
+	}
+	.fifth-section div>div:first-of-type>div{
+		position: absolute;
+		top: 60%;
+		left:20%;
+		color:#ffffff;
+	}
+	.fifth-section div>div:last-of-type>div{
+		position: absolute;
+		top: 60%;
+		left:20%;
+		color:#ffffff;
+	}
+	.fifth-section>div  img{
+		width: 180px;
+		
+	}
+	.fifth-section div>div:first-of-type>div{
+		top: 40%;
+		width: 100%;
+		left:5%;
+	}
+	.fifth-section div>div:last-of-type>div{
+		top: 40%;
+		width: 100%;
+		left:5%;
+	}
+	main>section:last-of-type{
+		flex-direction: column;
+		margin-top: 2rem;
+	}
+	footer{
+		padding-left: 1rem;
+		background-color: lemonchiffon;
+		padding-block: 2rem;
+	}
+	footer svg {
+		width: 15px;
+	}
+	footer section{
+		display: flex;
+		flex-direction: column;
+	}
+	footer section div{
+		margin-right: 0;
+		margin-block: 1rem;
+	}
+	footer h4{
+		margin-bottom: 8px;
+	}
+	footer form{
+		width: 95%;
+	}
+	form{
+		background-color: #ffffff;
+	}
+	footer input{
+		height: 40px;
+	}
+	#footer-form{
+		display: flex;
+		padding: 1rem;
+		
+	}
+	.footer-btn{
+		background-color: #0453B5;
+		color: #ffffff;
+		padding: 9px 14px;
+		border-radius: 6px;
+		border-top-left-radius: 0;
+		border-bottom-left-radius: 0;
+		border: none;
+	}
+	footer input{
+		border: 1px solid #0453B5;
+	}
+	.copyright{
+		flex-direction: column;
+		text-align: center;
+	}
+	.copyright>div{
+		width: 100%;
+		justify-content: center;
+		margin-block: 10px;
+	}
+	.copyright> div svg{
+		margin-inline: 10px;
+	}
+
+}
