@@ -489,6 +489,7 @@ svg{
 		border-top-left-radius: 0;
 		border-bottom-left-radius: 0;
 		border: none;
+		height: 40px;
 	}
 	footer input{
 		border: 1px solid #0453B5;
@@ -505,5 +506,28 @@ svg{
 	.copyright> div svg{
 		margin-inline: 10px;
 	}
-
+	#btn,#book-btn,#send-btn{
+		margin-block: 1rem;
+	}
+	hr{
+		margin-block: 1rem;
+	}
+	.copyright p{
+		margin-bottom: 1rem;
+	}
+	#icon-twitter{
+		margin-right: 5px;
+	}
+	#icon-instagram{
+		margin-left: 5px;
+	}
+	#name,#email,#subject,#text{
+		margin-block: 5px;
+	}
+	main>section:last-of-type div:first-of-type .contact{
+		margin-block: 1rem;
+	}
+	#mail{
+		margin-top:10px ;
+	}
 }
