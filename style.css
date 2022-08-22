@@ -545,4 +545,14 @@ svg{
 	#get-in form{
 		line-height: 1.7;
 	}
+	#may{
+		padding-block: 10px;
+		line-height: 1.5;
+	}
+	#meet-team{
+		margin-top: 10px;
+	}
+	#num{
+		margin-bottom: 8px;
+	}
 }
