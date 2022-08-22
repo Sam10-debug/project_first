@@ -151,6 +151,9 @@ hr{
 	margin-top: 7px;
 	width: 80%;
 }
+button{
+	cursor:pointer;
+}
 .fifth-section>img{
 	width: 100%;
 }
