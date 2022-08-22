@@ -530,4 +530,19 @@ svg{
 	#mail{
 		margin-top:10px ;
 	}
+	#book-trip{
+		margin-bottom: 10px;
+	}
+	#banner{
+		margin-top: 10px;
+	}
+	#milestone{
+		padding-block: 10px;
+	}
+	#get-in{
+		line-height: 1.6;
+	}
+	#get-in form input{
+		margin-block: 8px;
+	}
 }
